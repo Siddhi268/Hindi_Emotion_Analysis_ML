@@ -22,7 +22,7 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background('C:\\Users\\HP\\Downloads\\emotion1.jpg')
+set_background('emotion1.jpg')
 
 
 def predict_emotion(mn1,tf,text):
