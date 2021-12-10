@@ -1,7 +1,9 @@
-# HINDI EMOTION ANALYSIS (ML APPROACH)
+# Hindi Emotion Analysis (ML Approach)
 
 
-## Goal: Build an application (end to end) that predicts emotions(i.e. angry,sad,neutral,happy) behind the hindi text.
+## Goal: 
+
+Build an application (end to end) that predicts emotions(i.e. angry,sad,neutral,happy) behind the hindi text.
 
 ## Project Introduction
 
