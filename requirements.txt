@@ -126,4 +126,3 @@ widgetsnbextension==3.5.1
 wincertstore==0.2
 wordcloud==1.7.0
 unicode==2.7
-Unidecode==1.1.1
