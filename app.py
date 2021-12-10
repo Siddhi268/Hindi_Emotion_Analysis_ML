@@ -34,8 +34,11 @@ def predict_emotion(mn1,tf,text):
 def my_tokenizer(s):
   return s.split(' ')
 
-file1=open("./model268.pkl","rb")
-file2=open("./tfidf.pkl","rb")
+file1 = pickle.open('./model/model268.pkl','rb')
+file2 = pickle.open('./model/tdidf.pkl','rb')
+
+#file1=open("./model268.pkl","rb")
+#file2=open("./tfidf.pkl","rb")
 
 mn1=pickle.load(file1)
 tf=pickle.load(file2)
