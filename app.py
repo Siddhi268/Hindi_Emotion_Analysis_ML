@@ -22,7 +22,7 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background('emotion1.jpg')
+set_background('./emotion1.jpg')
 
 
 def predict_emotion(mn1,tf,text):
@@ -34,8 +34,8 @@ def predict_emotion(mn1,tf,text):
 def my_tokenizer(s):
   return s.split(' ')
 
-file1=open("model268.pkl","rb")
-file2=open("tfidf.pkl","rb")
+file1=open("./model268.pkl","rb")
+file2=open("./tfidf.pkl","rb")
 
 mn1=pickle.load(file1)
 tf=pickle.load(file2)
