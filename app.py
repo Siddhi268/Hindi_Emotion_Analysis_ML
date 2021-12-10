@@ -35,7 +35,7 @@ def my_tokenizer(s):
   return s.split(' ')
 
 file1 = open('./model/model268.pkl','rb')
-file2 = open('./model/tdidf.pkl','rb')
+file2 = open('./model/tfidf.pkl','rb')
 
 #file1=open("./model268.pkl","rb")
 #file2=open("./tfidf.pkl","rb")
