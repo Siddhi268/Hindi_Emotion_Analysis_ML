@@ -1,4 +1,4 @@
-# Hindi Emotion Analysis (ML Approach)
+# Hindi Text Emotions Classification (ML Approach)
 
 
 ## Goal: 
@@ -40,12 +40,12 @@ TF-IDF stands for Term Frequency-Inverse Document Frequency which basically tell
 
 1.Multinomial Naive Bayes Classifier(Count Vectorizer):
 
-![countvectorizer](https://user-images.githubusercontent.com/73767113/145580576-0f872ead-7d50-4bde-a752-8cc175cc97c9.jpg)
+![cv](https://user-images.githubusercontent.com/73767113/145659777-3e155847-e784-4135-ad50-3b0699ce916c.jpg)
 
 
 2.Multinomial Naive Bayes Classifier(TF-IDF Vectorizer):
 
-![tfidf_vectorizer](https://user-images.githubusercontent.com/73767113/145580624-c3f76479-81b2-4f1a-bf09-93124827d963.jpg)
+![tf](https://user-images.githubusercontent.com/73767113/145659787-959c29ca-aac9-4b4e-a420-05164e9f8fc4.jpg)
 
 
 #### Link to Jupyter Notebook in Repository
@@ -59,16 +59,17 @@ TF-IDF stands for Term Frequency-Inverse Document Frequency which basically tell
 
 1.Landing Page
 
+![landing](https://user-images.githubusercontent.com/73767113/145659796-08b85920-d255-4b52-a567-96bcacf30778.jpg)
 
 
 2.Emotion Detection Page
+
+![emotion_detection](https://user-images.githubusercontent.com/73767113/145659808-945b5164-8060-4ae7-bc0e-1191518a3899.jpg)
 
 
 
 Developed app using Streamlit in VSCode
 
 Deployed app on Heroku : https://hindi-emotion-analysis-app1.herokuapp.com/
-
-
 
 
